@@ -1,6 +1,21 @@
-p {
+.banner {
+  height: 200px;
+  width: 100%;
+  background-color: blue;
+}
+header#header {
+  background-color: #414141;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+header#header nav a {
+  color: #fff;
+  font-size: 2rem;
+}
+.content p {
   color: red;
 }
-p:hover {
+.content p:hover {
   color: blue;
 }
