@@ -4,7 +4,12 @@ import '../less/content.css';
 class Content extends React.Component {
     render() {
         return (
-            <p>Testing the LESS functionality.</p>
+            <main className="content">
+                <section>Portfolio</section>
+                <section>About</section>
+                <section>Skills</section>
+                <section>Contact</section>
+            </main>
         )
     }
 }

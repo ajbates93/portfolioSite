@@ -51,9 +51,10 @@ header#header nav ul a {
 header#header nav ul a:hover {
   color: #cccccc;
 }
-.content p {
-  color: red;
+main.content section {
+  min-height: 50vh;
 }
-.content p:hover {
-  color: blue;
+footer {
+  background-color: #292929;
+  min-height: 500px;
 }
