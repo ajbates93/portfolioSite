@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/content.less';
+import '../less/content.css';
 
 class Content extends React.Component {
     render() {
