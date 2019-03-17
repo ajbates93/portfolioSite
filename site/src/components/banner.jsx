@@ -10,7 +10,10 @@ class Banner extends React.Component{
     render() {
         return (
             <div className="banner"
-                style={bannerImage}></div>
+                style={bannerImage}>
+                <div className="cover"></div>
+                <div className="caption">Alex Bates</div>    
+            </div> 
         )
     }
 }
