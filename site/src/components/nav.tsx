@@ -1,7 +1,14 @@
-import React from 'react';
+import * as React from 'react';
 import '../less/content.css';
 
-class Nav extends React.Component {
+export interface NavProps {
+
+}
+
+class Nav extends React.Component<NavProps, {}> {
+    constructor(props: NavProps) {
+        super(props);
+    }
     render() {
         return (
             <nav>

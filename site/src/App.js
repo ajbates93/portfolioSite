@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Header from "./components/header.js";
-import Banner from "./components/banner.jsx";
-import Content from "./components/content.js";
-import Footer from "./components/footer.jsx";
+import Header from "./components/header";
+import Banner from "./components/banner";
+import Content from "./components/content";
+import Footer from "./components/footer";
 
 import './css/App.css';
 
@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Banner />
+        <Banner caption={"Alex Bates"} />
         <Header />
         <Content />
         <Footer />
