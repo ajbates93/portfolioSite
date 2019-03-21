@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import Header from "./components/header";
 import Banner from "./components/banner";
 import Content from "./components/content";
@@ -6,7 +6,14 @@ import Footer from "./components/footer";
 
 import './css/App.css';
 
-class App extends Component {
+export interface AppProps {
+
+}
+
+class App extends React.Component<AppProps, {}> {
+  constructor(props: AppProps) {
+    super(props);
+  }
   render() {
     return (
       <div className="App">
