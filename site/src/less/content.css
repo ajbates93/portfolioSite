@@ -54,6 +54,22 @@ header#header nav ul a:hover {
 main.content section {
   min-height: 50vh;
 }
+main.content section#skills .skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main.content section#skills .skills-container .skill-item {
+  background-color: #fafafa;
+  border: 1px solid #eaeaea;
+}
+main.content section#skills .skills-container .skill-item .skill-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #292929;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
 footer {
   background-color: #292929;
   min-height: 500px;

@@ -5,7 +5,7 @@ export interface PortfolioProps {
     title: string;
 }
 
-class Portfolio extends React.Component<PortfolioProps, {}> {
+export class Portfolio extends React.Component<PortfolioProps, {}> {
     constructor(props: PortfolioProps) {
         super(props);
     }

@@ -1,7 +1,8 @@
 import * as React from 'react'
 import '../less/content.css';
 
-import Portfolio from './sections/portfolio';
+import {Portfolio} from './sections';
+import {Skills} from './sections';
 
 export interface ContentProps {
 
@@ -16,7 +17,7 @@ class Content extends React.Component<ContentProps, {}> {
             <main className="content">
                 <Portfolio title={"Portfolio using Typescript"} />
                 <section>About</section>
-                <section>Skills</section>
+                <Skills />
                 <section>Contact</section>
             </main>
         )
